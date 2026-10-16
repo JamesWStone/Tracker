@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Tracking App</title>
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <h1 id="PageTitle">Learning Activities</h1>
+        <form id="activityForm">
+            <label for="activity">Activity:</label>
+            <input type="text" id="activity" name="activity" required>
+            <label for="timeSpent">Time Spent (minutes):</label>
+            <input type="number" id="timeSpent" name="timeSpent" required>
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea>
+            <button type="button" onclick="checkForm()">Add Activity</button>
+        </form>
+        <table id="activities">
+            <tr id="tableHeader">
+                <th>Activity</th>
+                <th>Time Spent (minutes)</th>
+                <th>Description</th>
+            </tr>
+        </table>
+    </body>
+</html>

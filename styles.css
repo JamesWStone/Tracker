@@ -1,0 +1,42 @@
+#PageTitle {
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    color: orangered;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    background-color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+#activityForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#description {
+    width: 300px;
+    height: 100px;
+}
+
+#activities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
