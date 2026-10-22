@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "Tracker",
+			"path": "../../../.."
+		},
+		{
+			"name": ".gradle",
+			"path": "../../../../../Downloads/demo/demo/.gradle"
+		},
+		{
+			"name": "gradle",
+			"path": "../../../../../Downloads/demo/demo/gradle"
+		},
+		{
+			"name": "wrapper",
+			"path": "../../../../../Downloads/demo/demo/gradle/wrapper"
+		}
+	],
+	"settings": {}
+}

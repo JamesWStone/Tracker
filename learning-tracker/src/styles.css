@@ -27,12 +27,11 @@ body {
 }
 
 #activities {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
+    display: table;
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    border-collapse: collapse;
 }
 
 td, th {
